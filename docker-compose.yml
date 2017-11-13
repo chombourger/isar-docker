@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  isar-devel:
+    build: isar-devel
+    privileged: true
+    ports:
+     - "8020:22"
