@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+
+cd /work
+sudo install -d -o docker -g docker isar
+cd isar
+git clone https://github.com/ilbers/isar src
